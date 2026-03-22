@@ -2,7 +2,7 @@
 ---
 
 `timer` takes in an amount of time in seconds as an arg and rings the terminal bell forever after it has slept for that amount of time.
-i made it because i wanted to wake me up from my nap with the terminal bell.
+i made it because i wanted to wake up from my nap in front of my laptop with the terminal bell.
 
 
 ## example usage 
@@ -23,5 +23,8 @@ i made it because i wanted to wake me up from my nap with the terminal bell.
 ```bash
 # to compile
 gcc timer.c -o timer  
+
+# if you want to have `timer` accessible from everywhere 
+sudo ln -s ~/<path to timer>/timer /usr/local/bin/timer
 ```
 
